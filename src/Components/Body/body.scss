@@ -1,0 +1,13 @@
+.mainContent {
+  width: 82%;
+  height: 100%;
+  padding: 3rem;
+  overflow: auto;
+  margin-top: 40px;
+
+  .bottom {
+    margin-top: 3rem;
+    gap: 4rem;
+    align-items: flex-start;
+  }
+}

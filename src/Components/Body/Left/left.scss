@@ -1,0 +1,29 @@
+.leftCardSection {
+  margin-top: -15.5rem;
+  margin-left: -1rem;
+  gap: 1rem;
+
+  .leftCard {
+    position: absolute;
+    flex-basis: 70%;
+    flex-direction: column;
+    img {
+      width: 730px;
+      height: 457px;
+      border-radius: 20px;
+    }
+    h2 {
+      position: absolute;
+      margin-top: 1rem;
+      margin-left: -30rem;
+      color: black;
+    }
+  }
+}
+
+.para {
+  position: absolute;
+  color: black;
+  margin-top: 3rem;
+  margin-left: -31rem;
+}

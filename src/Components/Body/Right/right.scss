@@ -1,0 +1,49 @@
+.cardSection {
+  margin-top: -1rem;
+  margin-left: 53rem;
+  gap: 1rem;
+
+  .rightCard {
+    position: relative;
+    flex-basis: 70%;
+    flex-direction: column;
+    img {
+      width: 500px;
+      height: 450px;
+      border-radius: 20px;
+    }
+    h2 {
+      position: absolute;
+      margin-top: 22rem;
+      margin-left: -5rem;
+      color: white;
+    }
+  }
+}
+.bulb {
+  position: absolute;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 19rem;
+  margin-left: -28rem;
+  cursor: pointer;
+}
+p {
+  position: absolute;
+  z-index: 10px;
+  color: white;
+  margin-top: 25rem;
+  margin-left: -6rem;
+}
+.icona {
+  position: absolute;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 29rem;
+  margin-left: 29rem;
+}

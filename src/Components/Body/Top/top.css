@@ -1,0 +1,83 @@
+.topSection .headerSection {
+  justify-content: space-between;
+}
+.topSection .searchBar {
+  padding: 0.8rem;
+  margin-right: -640px;
+  background-color: white;
+  border-radius: 8px;
+  gap: 1rem;
+}
+.topSection .searchBar input {
+  border: none;
+  outline: none;
+  background: none;
+}
+.topSection .searchBar .icon {
+  color: black;
+}
+.topSection .searchBar .icon:hover {
+  color: black;
+}
+.topSection .adminDiv {
+  gap: 1rem;
+}
+.topSection .adminDiv .icon {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.listingSection {
+  flex-basis: 70%;
+}
+.listingSection .secContainer {
+  width: 100%;
+  margin: 1rem 0;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.listingSection .secContainer .singleItem {
+  position: relative;
+  margin-top: 90px;
+  width: 190px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: white;
+}
+.listingSection .secContainer .singleItem .a {
+  position: absolute;
+  color: green;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: -160px;
+}
+.listingSection .secContainer .singleItem .b {
+  position: absolute;
+  margin-top: 48px;
+  margin-left: 5px;
+}
+.listingSection .secContainer .singleItem img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  margin-left: 150px;
+  margin-top: -20px;
+}
+.listingSection .secContainer .singleItem p {
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -80px;
+  color: black;
+}
+.listingSection .secContainer .singleItem h2 {
+  position: absolute;
+  margin-left: -118px;
+  margin-top: 8px;
+}/*# sourceMappingURL=top.css.map */
